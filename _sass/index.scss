@@ -1,0 +1,343 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@import "variables";
+@import "legacy";
+@import "info";
+@import "navigation";
+@import "pages";
+@import "footer";
+
+body {
+  background: $BG_COLOR;
+  font-family: $FONT_FAMILY;
+}
+
+.container {
+  position: relative;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+// TODO: refactor
+p span {
+  color: #ff0000;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ff0000;
+}
+/*=================
+=======!MENU!======
+==================*/
+/*=================
+====!KATEGORIE!====
+==================*/
+.menu a {
+  display: block;
+  color: #fafafa;
+  text-decoration: none;
+  padding-left: 10%;
+  margin-bottom: 10px;
+  line-height: 50px;
+  border-radius: 2px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.menu div {
+  background-color: #212121;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 2px;
+}
+#kat1 {
+  background-image: url(../images/kategorie/beef.jpg);
+  background-size: 200%;
+}
+#kat2 {
+  background-image: url(../images/kategorie/fish.jpg);
+  background-size: 110%;
+}
+#kat3 {
+  background-image: url(../images/kategorie/spaghetti.jpg);
+}
+#kat4 {
+  background-image: url(../images/kategorie/pizza.jpg);
+}
+#kat5 {
+  background-image: url(../images/kategorie/rigatoni.jpg);
+  background-position: 80% 70%;
+}
+#kat6 {
+  background-image: url(../images/kategorie/risotto.jpg);
+}
+#kat7 {
+  background-image: url(../images/kategorie/salad.jpg);
+  background-position: 60% 70%;
+}
+#kat8 {
+  background-image: url(../images/kategorie/napoje.jpg);
+  background-position: 10% 60%;
+}
+#kat9 {
+  background-image: url(../images/kategorie/deser.jpg);
+}
+.menu a:hover {
+  background: rgba(191, 13, 13, 0.1);
+}
+.menu a.active {
+  background: rgba(191, 13, 13, 0.6);
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    background: rgba(191, 13, 13, 0.1);
+  }
+  to {
+    background: rgba(191, 13, 13, 0.6);
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    background: rgba(191, 13, 13, 0.1);
+  }
+  to {
+    background: rgba(191, 13, 13, 0.6);
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    background: rgba(191, 13, 13, 0.1);
+  }
+  to {
+    background: rgba(191, 13, 13, 0.6);
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    background: rgba(191, 13, 13, 0.1);
+  }
+  to {
+    background: rgba(191, 13, 13, 0.6);
+  }
+}
+
+/*=====================
+=====!TABELA_MENU!=====
+======================*/
+
+table {
+  margin-top: -10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  width: 100%;
+  animation: menuFadeIn 0.4s both;
+}
+tr {
+  height: 50px;
+  background: #0a0a0a;
+}
+td {
+  border: none;
+}
+td:first-child {
+  border-radius: 2px 0px 0px 2px;
+}
+td:last-child {
+  border-radius: 0px 2px 2px 0px;
+}
+td:nth-child(1) {
+  font-size: 1.6rem;
+  padding-left: 10px;
+  font-weight: 300;
+}
+td:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: red;
+  width: 20%;
+  line-height: 1.6rem;
+}
+td:nth-child(3) {
+  font-size: 1.2rem;
+  color: #c5c5c5;
+  letter-spacing: 0.5px;
+}
+td:nth-child(4) {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ff0000;
+  width: 10%;
+  line-height: 2.4rem;
+}
+
+tr:nth-child(odd) {
+  background: #030303;
+}
+
+/**/
+
+table#desery tr td,
+table#napoje tr td {
+  width: 100%;
+  position: relative;
+}
+
+table#desery tr td img,
+table#napoje tr td img {
+  width: 100%;
+}
+table#desery tr td p,
+table#desery tr td img {
+  padding: 5px;
+}
+table#napoje tr td p {
+  line-height: none;
+  padding: 5px;
+}
+td > div {
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+td > div > p {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 650px) {
+  td > div > p {
+    font-size: 0.8em;
+  }
+}
+table#desery tr td img,
+table#napoje tr td img {
+  width: 100%;
+  opacity: 0.1;
+  transition: opacity 0.5s;
+}
+
+#napoje td:hover p,
+#desery td:hover p {
+  opacity: 0;
+}
+#napoje td:hover img,
+#desery td:hover img {
+  opacity: 1;
+}
+/*========================
+=====!ZADZWON_BUTTON!=====
+=========================*/
+
+a.tel {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+#tel {
+  background: url("../images/phone322.png");
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  float: left;
+  margin-right: 5px;
+}
+a.tel {
+  background: #ff0000;
+  padding: 7px;
+  border-radius: 2px;
+  transition: background 1s ease-out;
+}
+a.tel:hover {
+  background: #dd0000;
+}
+
+a.kont {
+  margin-top: 10px;
+}
+
+/*=================
+=====!KONTAKT!=====
+==================*/
+iframe#map {
+  border: 10px solid #fff;
+}
+.kontakt h5 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
+}
+.kontakt h5:first-child {
+  margin: 0;
+}
+.kontakt ul {
+  margin: 0;
+}
+.kontakt ul li {
+  font-size: 1.5rem;
+  margin-left: -16px;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.kontakt span {
+  color: #ff0000;
+}
+#map {
+  width: 100%;
+  height: 380px;
+}
+
+.contact-hours-list li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 270px;
+}
+
+.kontakt .contact-hours-list span {
+  color: #fff;
+  float: right;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu-header a {
+  color: #bbb;
+  font-size: 14px;
+}
+@keyframes menuFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

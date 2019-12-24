@@ -1,18 +1,17 @@
 <header>
-  <div id="logo">
-    <h1>Restauracja <span>EXpansja</span></h1>
-    <h2>zaprasza codziennie</h2>
+  <div class="logo">
+    <h1 class="logo__title">Restauracja <span>EXpansja</span></h1>
+    <p class="logo__subtitle">zaprasza codziennie</p>
   </div>
-  <nav>
-    <div class="redline"></div>
-    <ul class="slimmenu">
-      <li><a href="/index.html" class={{getActive permalink '/'}}>O nas</a></li>
-      <li><a href="/menu.html" class={{getActive permalink '/menu.html'}}>Menu</a></li>
-      <li><a href="/galeria.html" class={{getActive permalink '/galeria.html'}}>Galeria</a></li>
-      <li><a href="/kontakt.html" class={{getActive permalink '/kontakt.html'}}>Kontakt</a></li>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item {{getActive permalink '/'}}"><a href="/index.html">O nas</a></li>
+      <li class="navigation__item {{getActive permalink '/menu.html'}}"><a href="/menu.html">Menu</a></li>
+      <li class="navigation__item {{getActive permalink '/galeria.html'}}"><a href="/galeria.html">Galeria</a></li>
+      <li class="navigation__item {{getActive permalink '/kontakt.html'}}"><a href="/kontakt.html">Kontakt</a></li>
     </ul>
   </nav>
-  <div class="slider" style="background: url(static/images/{{hero.img}}) {{hero.position}}/cover;">
-    {{{hero.text}}}
+  <div class="hero" style="background: url(static/images/{{hero.img}}) {{hero.position}}/cover;">
+    <p class="hero__text">{{{hero.text}}}</p>
   </div>
 </header>

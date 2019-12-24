@@ -5,18 +5,18 @@ body{
 /*================
 =====!HEADER!=====
 ==================*/
-#logo{
+.logo{
     color: #fafafa;
     text-align: center;
 }
-#logo>h1{
+.logo>h1{
     font-size: 3.6rem;
     padding-top: 5.0rem;
 }
-#logo h1 span{
+.logo h1 span{
     color: #ff0000;
 }
-#logo>h2{
+.logo>p{
     font-size: 1.8rem;
 	letter-spacing: 0.01rem;
 }
