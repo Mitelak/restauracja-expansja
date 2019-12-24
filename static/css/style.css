@@ -28,7 +28,7 @@ body{
 nav{
     min-width: 100%;
     position: relative;
-    height: 34px; 
+    height: 34px;
 }
 nav ul {
     list-style: none;
@@ -37,7 +37,7 @@ nav ul {
     display: block;
     position: absolute;
     z-index: 2;
-    width: 426px; 
+    width: 426px;
     left:0; right:0; margin:auto;
 }
 nav li{
@@ -108,7 +108,7 @@ nav a:hover{
     height: 1px;
     position: relative;
     top: 18px;
-}  
+}
 
 /*================
 =====!SLIDER!=====
@@ -122,12 +122,12 @@ nav a:hover{
     border-bottom: 1px solid #ff0000;
 }
 .slider p{
-    
+
     font-size: 3.6rem;
     color: #fafafa;
     text-align: center;
     padding-top: 80px;
-    text-shadow: 0.5px 1.5px 1px rgba(0,0,0,0.7); 
+    text-shadow: 0.5px 1.5px 1px rgba(0,0,0,0.7);
 }
 p span{
     color: #ff0000;
@@ -270,7 +270,7 @@ table {
     border-collapse: separate;
     border-spacing: 0 10px;
     width: 100%;
-
+    animation: menuFadeIn 0.4s both;
 }
 tr{
     height: 50px;
@@ -393,7 +393,7 @@ a.tel{
     padding: 7px;
     border-radius: 2px;
 	transition: background 1s ease-out;
-	
+
 }
 a.tel:hover{
 background: #dd0000;
@@ -491,7 +491,7 @@ a.kont{
 ==================*/
 iframe#map{
 	border: 10px solid #fff;
-	
+
 }
 .kontakt h5{
 	font-size: 2.4rem;
@@ -533,7 +533,7 @@ iframe#map{
 =====!STOPKA!======
 ==================*/
 footer{
-    margin-top: 50px; 
+    margin-top: 50px;
     background: #080808;
     width: 100%;
 	border-top: 1px solid red;
@@ -753,7 +753,7 @@ ul.slimmenu.collapsed li .sub-collapser {
 }
 ul.slimmenu.collapsed li > ul {
     display: none;
-    position: static;
+    position: ..;
 }
 }
 
@@ -762,15 +762,23 @@ ul.slimmenu.collapsed li > ul {
     justify-content: space-between;
     align-items: baseline;
 }
-.menu-header a { 
+.menu-header a {
     color: #bbb;
     font-size: 14px;
 }
-
 
 .info {
     background: red;
     padding: 20px 0;
     color: #000;
     text-align: center;
+}
+
+@keyframes menuFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

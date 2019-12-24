@@ -1,0 +1,71 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="static/js/jquery.slimmenu.min.js"></script>
+<script src="static/js/navigation.js"></script>
+{{#if useMenuScript}}
+<script>
+  /*(function() {
+    var $tables = document.querySelectorAll('table');
+    var $links = document.querySelectorAll('.menu a');
+
+    const hideTables = () => {
+      $tables.forEach(table => {
+        table.style.display = 'none';
+      })
+    }
+
+    hideTables();
+
+    $links.forEach(link => {
+      link.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        const clickedHref = link.getAttribute('href');
+        const $choosenTable = document.querySelector('table' + link.getAttribute('href'))
+
+        hideTables();
+        $choosenTable.style.display = 'table'
+
+        const $activeLink = document.querySelector('.menu a.active');
+        $activeLink.classList.remove('active');
+        link.classList.add('active');
+      })
+    })
+
+    $links[0].click();
+  })()*/
+
+  $(document).ready(function () {
+    $table = $('table');
+    $table.hide();
+    $('.menu a').click(function (evt) {
+      $this = $(this);
+      var lista = $this.attr("href");
+      var wybor = 'table' + lista;
+      $table.hide();
+      $(wybor).fadeIn();
+      $('.menu a').removeClass('active');
+      $this.addClass('active');
+      evt.preventDefault();
+    });
+
+    $('.menu a:first').click();
+  });
+</script>
+{{/if}}
+{{#if useFancybox}}
+<script type="text/javascript" src="static/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".fancybox").fancybox();
+  });
+</script>
+{{/if}}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-87656594-2', 'auto');
+  ga('send', 'pageview');
+</script>

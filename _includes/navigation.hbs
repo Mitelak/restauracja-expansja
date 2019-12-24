@@ -1,0 +1,18 @@
+<header>
+  <div id="logo">
+    <h1>Restauracja <span>EXpansja</span></h1>
+    <h2>zaprasza codziennie</h2>
+  </div>
+  <nav>
+    <div class="redline"></div>
+    <ul class="slimmenu">
+      <li><a href="/index.html" class={{getActive permalink '/'}}>O nas</a></li>
+      <li><a href="/menu.html" class={{getActive permalink '/menu.html'}}>Menu</a></li>
+      <li><a href="/galeria.html" class={{getActive permalink '/galeria.html'}}>Galeria</a></li>
+      <li><a href="/kontakt.html" class={{getActive permalink '/kontakt.html'}}>Kontakt</a></li>
+    </ul>
+  </nav>
+  <div class="slider" style="background: url(static/images/{{hero.img}}) {{hero.position}}/cover;">
+    {{{hero.text}}}
+  </div>
+</header>

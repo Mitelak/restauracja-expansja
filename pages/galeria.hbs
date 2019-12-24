@@ -1,0 +1,26 @@
+---
+title: Galeria
+layout: layout.hbs
+permalink: /galeria.html
+hero:
+  text: <p><span>EXpansja</span> miejsce spotkań</p>
+  img: garlic.jpg
+  position: 50% 15%
+useFancybox: true
+---
+<div class="container bg">
+  <div class="row">
+    <div class="offset-by-three six columns">
+      <h3>GALERIA</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="twelve columns galeria">
+      {{#each gallery}}
+        <a class="fancybox" rel="group" href={{this.img}}>
+          <img src={{this.img}} alt="">
+        </a>
+      {{/each}}
+    </div>
+  </div>
+</div>
