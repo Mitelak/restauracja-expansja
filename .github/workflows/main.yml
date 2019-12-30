@@ -1,0 +1,25 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Install
+      uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: install  
+    - name: Build
+      uses: borales/actions-yarn@v2.0.0
+      with: 
+        cmd: build
+    - name: Upload ftp
+      uses: sebastianpopp/ftp-action@releases/v1
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localDir: "_site"
+        remoteDir: "public_html"
