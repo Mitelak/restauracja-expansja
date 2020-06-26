@@ -6,7 +6,7 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addHandlebarsShortcode('removeWhitespaces', (value) => value.replace(/\s/g,''));
-  eleventyConfig.addHandlebarsShortcode('getActive', (arg1, arg2) => arg1 == arg2 ? 'active' : '');
+  eleventyConfig.addHandlebarsShortcode('getActive', (arg1, arg2) => arg1 == arg2 ? 'navigation__item--active' : '');
 
   return {
     dir: {
@@ -18,6 +18,7 @@ module.exports = (eleventyConfig) => {
 			"hbs",
       "png",
       "jpg",
+      "gif",
       "jpeg",
       "js",
       "htaccess",

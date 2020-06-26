@@ -1,0 +1,56 @@
+---
+title: Kontakt
+layout: layout.hbs
+permalink: /kontakt.html
+hero:
+  text: <span>Czekamy</span> na Ciebie
+  img: kawa.jpg
+  position: 50% 50%
+header: SKONTATKUJ SIĘ <span>Z NAMI</span>
+---
+<div class="row">
+  <div class="seven columns">
+    <div id="map"></div>
+  </div>
+  <div class="five columns kontakt">
+    <h5>Znajdziesz nas tutaj</h5>
+    <ul>
+      <li>Bystrzyca Kłodzka</li>
+      <li>ul. Sienkiewicza 2</li>
+      <li><span>wejście od ulicy Sempołowskiej</span></li>
+    </ul>
+    <h5>Zapraszamy codziennie</h5>
+    <ul class="contact-hours-list">
+      <li>poniedziałek - sobota <span>12.00 - 21.00</span></li>
+      <li>środa <span>nieczynne</span></li>
+      <li>niedziela <span>13.00 - 21.00</span></li>
+    </ul>
+    <h5>Zamawiaj nie wychodząc z domu</h5>
+    <ul>
+      <li><span>ZAMÓWIENIA</span> na <span>TAXI</span> od 50zł PEPSI - 0,50 zł!</li>
+      <li>Na terenie Bystrzycy Kłodzkiej dowóz <span>GRATIS!</span></li>
+      <li>Poza Bystrzycę - do 15 km - 6 zł</li>
+    </ul>
+    <a href="tel:{{{removeWhitespaces base.phone}}}" class="tel kont" href="#">
+      <div id="tel"></div>Zadzwoń {{base.phone}}
+    </a>
+  </div>
+</div>
+
+<script>
+  function initMap() {
+    var myLatLng = { lat: 50.299809, lng: 16.652502 };
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 17,
+      center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Hello World!'
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKednhTljCqyRQS7RUumeWt22EhGcdKcg&callback=initMap"></script>
