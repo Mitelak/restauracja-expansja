@@ -1,63 +1,42 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-{{!-- <script src="static/js/jquery.slimmenu.min.js"></script> --}}
-<script src="static/js/navigation.js"></script>
 {{#if useMenuScript}}
 <script>
-  /*(function() {
-    var $tables = document.querySelectorAll('table');
-    var $links = document.querySelectorAll('.menu a');
+  (function () {
+    var $tables = document.querySelectorAll("table");
+    var $menuItems = document.querySelectorAll("#menu a");
 
-    const hideTables = () => {
-      $tables.forEach(table => {
-        table.style.display = 'none';
-      })
+    function getTable(selector) {
+      return document.querySelector(selector);
     }
 
-    hideTables();
+    function hideTables() {
+      $tables.forEach(function (node) {
+        return node.classList.add("hide-menu-table");
+      });
+    }
 
-    $links.forEach(link => {
-      link.addEventListener('click', (evt) => {
-        evt.preventDefault();
-        const clickedHref = link.getAttribute('href');
-        const $choosenTable = document.querySelector('table' + link.getAttribute('href'))
+    function removeMenuItemsActiveClass() {
+      $menuItems.forEach(function (node) {
+        return node.classList.remove("active");
+      });
+    }
 
+    $menuItems.forEach(function (node) {
+      return node.addEventListener("click", function (event) {
+        event.preventDefault();
         hideTables();
-        $choosenTable.style.display = 'table'
-
-        const $activeLink = document.querySelector('.menu a.active');
-        $activeLink.classList.remove('active');
-        link.classList.add('active');
-      })
-    })
-
-    $links[0].click();
-  })()*/
-
-  $(document).ready(function () {
-    $table = $('table');
-    $table.hide();
-    $('.menu a').click(function (evt) {
-      $this = $(this);
-      var lista = $this.attr("href");
-      var wybor = 'table' + lista;
-      $table.hide();
-      $(wybor).fadeIn();
-      $('.menu a').removeClass('active');
-      $this.addClass('active');
-      evt.preventDefault();
+        removeMenuItemsActiveClass();
+        var clickedItem = event.currentTarget;
+        clickedItem.classList.add("active");
+        var table = getTable("table" + clickedItem.getAttribute("href"));
+        table.classList.remove("hide-menu-table");
+      });
     });
-
-    $('.menu a:first').click();
-  });
+    $menuItems[0].click();
+  })();
 </script>
 {{/if}}
-{{#if useFancybox}}
-<script type="text/javascript" src="static/js/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-  $(document).ready(function () {
-    $(".fancybox").fancybox();
-  });
-</script>
+{{#if useGalleryScript}}
+<script src="static/js/gallery.js"></script>
 {{/if}}
 <script>
   (function (i, s, o, g, r, a, m) {

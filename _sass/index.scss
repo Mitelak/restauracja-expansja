@@ -1,13 +1,15 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-@import "variables";
-@import "legacy";
-@import "info";
-@import "navigation";
-@import "pages";
-@import "footer";
+@import 'variables';
+@import 'legacy';
+@import 'info';
+@import 'navigation';
+@import 'pages';
+@import 'footer';
 
 body {
   background: $BG_COLOR;
@@ -46,10 +48,7 @@ h4 {
   margin-bottom: 10px;
   line-height: 50px;
   border-radius: 2px;
-  -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 .menu div {
   background-color: #212121;
@@ -94,45 +93,6 @@ h4 {
 }
 .menu a.active {
   background: rgba(191, 13, 13, 0.6);
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
-}
-@keyframes fadein {
-  from {
-    background: rgba(191, 13, 13, 0.1);
-  }
-  to {
-    background: rgba(191, 13, 13, 0.6);
-  }
-}
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    background: rgba(191, 13, 13, 0.1);
-  }
-  to {
-    background: rgba(191, 13, 13, 0.6);
-  }
-}
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    background: rgba(191, 13, 13, 0.1);
-  }
-  to {
-    background: rgba(191, 13, 13, 0.6);
-  }
-}
-@-o-keyframes fadein {
-  /* Opera */
-  from {
-    background: rgba(191, 13, 13, 0.1);
-  }
-  to {
-    background: rgba(191, 13, 13, 0.6);
-  }
 }
 
 /*=====================
@@ -247,6 +207,11 @@ table#napoje tr td img {
 #desery td:hover img {
   opacity: 1;
 }
+
+.hide-menu-table {
+  display: none;
+}
+
 /*========================
 =====!ZADZWON_BUTTON!=====
 =========================*/
@@ -260,7 +225,7 @@ a.tel {
   line-height: 24px;
 }
 #tel {
-  background: url("../images/phone322.png");
+  background: url('../images/phone322.png');
   height: 24px;
   width: 24px;
   background-size: cover;

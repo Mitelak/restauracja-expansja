@@ -6,13 +6,16 @@ hero:
   text: <span>EXpansja</span> miejsce spotkań
   img: garlic.jpg
   position: 50% 15%
-useFancybox: true
+useGalleryScript: true
 header: GALERIA
 ---
 <div class="gallery">
   {{#each gallery}}
-    <a class="gallery__item fancybox" rel="group" href={{this.img}}>
+    <a class="gallery__item" rel="group" href={{this.img}} data-gallery="true">
       <img class="gallery__img" src={{this.img}} alt="">
     </a>
   {{/each}}
+</div>
+<div class="gallery-modal" id="gallery-modal">
+  <img class="gallery-modal-image" id="gallery-modal-image" alt="" />
 </div>
