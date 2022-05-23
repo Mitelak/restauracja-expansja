@@ -107,43 +107,43 @@
       "items": [
         {
           "number": 31,
-          "price": 34,
+          "price": 35,
           "name": "Spaghetti Vegetariana",
-          "description": "polędwica (mięso krojone w paski), pieczarki, ogórek konserwowy, papryka, śmietana, (podawane z ryżem lub ziemniakami zapiekanymi do wyboru), sałatka mała(pomidor, ogórek, czosnek, sos winegret)"
+          "description": "cebula, pomidor, pieczarki, sos pomidorowy, czosnek, zioła"
         },
         {
           "number": 32,
-          "price": 30,
+          "price": 35,
           "name": "Spaghetti Bolognese",
           "description": "sos pomidorowo-mięsny, sos biały, czosnek, zioła"
         },
         {
           "number": 33,
-          "price": 30,
+          "price": 37,
           "name": "Spaghetti Carbonara",
           "description": "boczek, cebula, sos biały, żółtko, czosnek, zioła"
         },
         {
           "number": 39,
-          "price": 30,
+          "price": 37,
           "name": "Spaghetti al Tonno",
           "description": "tuńczyk, cebula, sos biały, czosnek, zioła"
         },
         {
           "number": 34,
-          "price": 27,
+          "price": 32,
           "name": "Brocolli al Forno",
           "description": "(BROKUŁY z PIECA BEZ MAKARONU) brokuły, sos biały, ser mozzarella, czosnek, zioła"
         },
         {
           "number": 35,
-          "price": 29,
+          "price": 35,
           "name": "Spaghetti Matriciana",
           "description": "pieczarki, szynka, sos biały, sos pomidorowy, czosnek, zioł"
         },
         {
           "number": 61,
-          "price": 33,
+          "price": 39,
           "name": "Spaghetti Pride",
           "description": "polędwica (mięso krojone w paski) cebula, fasola czerwona, sos pomidorowy, śmietana, sos ostry, zioła"
         }
@@ -333,19 +333,19 @@
       "items": [
         {
           "number": 36,
-          "price": 29,
+          "price": 33,
           "name": "Rigatoni al forno (z pieca)",
           "description": "pieczarki, szynka, sos pomidorowy, sos biały, czosnek, ser mozzarella, zioła"
         },
         {
           "number": 37,
-          "price": 27,
+          "price": 30,
           "name": "Rigatoni broccoli al forno (z pieca)",
           "description": "pomidor, brokuły, sos pomidorowy, czosnek, ser mozzarella, zioła"
         },
         {
           "number": 38,
-          "price": 33,
+          "price": 38,
           "name": "Rigatoni pollo al forno (z pieca)",
           "description": "kawałki piersi z kurczaka, pieczarki, sos biały, czosnek, ser mozzarella, zioła"
         }
@@ -356,31 +356,31 @@
       "items": [
         {
           "number": 40,
-          "price": 27,
+          "price": 31,
           "name": "Risotto Vegetariana",
           "description": "pieczarki, cebula, papryka, brokuły, czosnek, sos pomidorowy, sałata lodowa, zioła"
         },
         {
           "number": 41,
-          "price": 29,
+          "price": 34,
           "name": "Risotto Expansja",
           "description": "sos boloński (pomidorowo-mięsny), polędwica drobiowa, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 42,
-          "price": 34,
+          "price": 39,
           "name": "Risotto Marinara",
           "description": "krewetki, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 43,
-          "price": 33,
+          "price": 38,
           "name": "Risotto Pollo",
           "description": "kawałki piersi z kurczaka, cebula, pieczarki, papryka, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 49,
-          "price": 31,
+          "price": 36,
           "name": "Matassa",
           "description": "(Z RYŻEM LUB ZIEMNIAKAMI ZAPIEKANYMI) smażona świeża kapusta, kiełbaska, boczek, cebula, przyprawy"
         }
@@ -391,61 +391,61 @@
       "items": [
         {
           "number": 25,
-          "price": 20,
+          "price": 23,
           "name": "Picola mista",
           "description": "sałatka mała <br>sałata lodowa, ogórek, pomidor, cebula, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 26,
-          "price": 27,
+          "price": 30,
           "name": "Grecka",
           "description": "sałatka duża <br>sałata lodowa, ogórek, pomidor, cebula, feta, czosnek, sos winegret, oliwki zielone"
         },
         {
           "number": 27,
-          "price": "21 / 26 zł",
+          "price": "24 / 29 zł",
           "name": "Roma",
           "description": "sałatka mała / duża<br>sałata lodowa, cebula, ser mozzarella, ogórek, pomidor, jajko, oliwki zielone, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 28,
-          "price": "21 / 26 zł",
+          "price": "24 / 29 zł",
           "name": "Tonno",
           "description": "sałatka mała / duża <br>sałata lodowa, cebula, ogórek, pomidor, tuńczyk, oliwki zielone, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 29,
-          "price": "21 / 26 zł",
+          "price": "24 / 29 zł",
           "name": "Venezia",
           "description": "sałatka mała / duża<br>sałata lodowa, cebula, ogórek, pomidor, ser mozzarella, szynka, jajko, oliwki zielone, czosnek, sos winegret, sos bianes"
         },
         {
           "number": 30,
-          "price": 27,
+          "price": 30,
           "name": "Expansja",
           "description": "sałatka duża<br>sałata lodowa, ogórek, pomidor, cebula, ser mozzarella, kukurydza, brokuły, czosnek, sos winegret, sos bianes"
         },
         {
           "number": 85,
-          "price": 30,
+          "price": 33,
           "name": "Favolla",
           "description": "sałatka duża<br>kawałki piersi z kurczaka, sałata lodowa, pomidor, cebula, ser mozzarella, czosnek, sos winegret, zioła"
         },
         {
           "number": 86,
-          "price": 21,
+          "price": 23,
           "name": "Cetriolo",
           "description": "sałatka duża<br>krojony ogórek kiszony, cebula, czosnek, oliwa, przyprawy"
         },
         {
           "number": 87,
-          "price": "21 / 26 zł",
+          "price": "24 / 29 zł",
           "name": "Presto",
           "description": "sałatka mała / duża<br>kukurydza, szynka, ser mozzarella, ananas, bianes"
         },
         {
           "number": 88,
-          "price": 30,
+          "price": 35,
           "name": "Di Mare",
           "description": "sałatka duża<br>sałata lodowa, ogórek, jajko, ser mozzarella, smażone krewetki"
         }
