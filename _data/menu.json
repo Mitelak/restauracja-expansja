@@ -43,37 +43,37 @@
       "items": [
         {
           "number": 45,
-          "price": 38,
+          "price": 40,
           "name": "Zestaw Sano",
           "description": "grillowana pierś z kurczaka, zapiekane ziemniaki, tzatziki, żurawina, sałatka mała (pomidor, ogórek, cebulka, czosnek, sos bianes, oregano)"
         },
         {
           "number": 46,
-          "price": 39,
+          "price": 41,
           "name": "Zestaw ricco",
           "description": "grillowany schab, zapiekane ziemniaki, tzatziki, żurawina, sałatka mała (pomidor, ogórek, cebulka, czosnek, sos bianes, oregano)"
         },
         {
           "number": 47,
-          "price": 50,
+          "price": 52,
           "name": "Zestaw etna",
           "description": "grillowana pierś z kurczaka i grillowany schab, zapiekane ziemniaki, tzatziki, żurawina, sałatka mała (pomidor, ogórek, cebulka, czosnek, sos bianes, oregano)"
         },
         {
           "number": 48,
-          "price": 39,
+          "price": 41,
           "name": "Zestaw Vin-sa",
           "description": "grillowana, zapiekana w białym winie pierś z kurczaka, chrupiąca bagietka, sałatka mała (pomidor, ogórek, cebulka, czosnek, sos bianes, oregano)"
         },
         {
           "number": 50,
-          "price": 39,
+          "price": 41,
           "name": "Szaszłyk",
           "description": "z ryżem lub ziemniakami zapiekanymi do wyboru, sałatka mała (pomidor, ogórek, cebulka, czosnek, sos winegret)"
         },
         {
           "number": 51,
-          "price": 39,
+          "price": 41,
           "name": "Zestaw collina",
           "description": "grillowany schab skropiony czerwonym winem, ser, ananas, ziemniaki zapiekane, sałatka mała"
         }
@@ -84,19 +84,19 @@
       "items": [
         {
           "number": 44,
-          "price": 42,
+          "price": 44,
           "name": "Strogonow",
           "description": "polędwica (mięso krojone w paski), pieczarki, ogórek konserwowy, papryka, śmietana, (podawane z ryżem lub ziemniakami zapiekanymi do wyboru), sałatka mała(pomidor, ogórek, czosnek, sos winegret)"
         },
         {
           "number": 60,
-          "price": 29,
+          "price": 31,
           "name": "Leczo",
           "description": "gorące danie: cebula, pieczarki, papryka, kiełbasa, sos pomidorowy, czosnek, aromatyczne zioła, chrupiąca bagietka"
         },
         {
           "number": 55,
-          "price": 39,
+          "price": 41,
           "name": "Zestaw Pesce",
           "description": "pstrąg, ryż lub ziemniaki zapiekane do wyboru, sałatka z ogórków kiszonych z cebulką i czosnkiem"
         }
@@ -107,43 +107,43 @@
       "items": [
         {
           "number": 31,
-          "price": 35,
+          "price": 37,
           "name": "Spaghetti Vegetariana",
           "description": "cebula, pomidor, pieczarki, sos pomidorowy, czosnek, zioła"
         },
         {
           "number": 32,
-          "price": 35,
+          "price": 37,
           "name": "Spaghetti Bolognese",
           "description": "sos pomidorowo-mięsny, sos biały, czosnek, zioła"
         },
         {
           "number": 33,
-          "price": 37,
+          "price": 39,
           "name": "Spaghetti Carbonara",
           "description": "boczek, cebula, sos biały, żółtko, czosnek, zioła"
         },
         {
           "number": 39,
-          "price": 37,
+          "price": 39,
           "name": "Spaghetti al Tonno",
           "description": "tuńczyk, cebula, sos biały, czosnek, zioła"
         },
         {
           "number": 34,
-          "price": 32,
+          "price": 34,
           "name": "Brocolli al Forno",
           "description": "(BROKUŁY z PIECA BEZ MAKARONU) brokuły, sos biały, ser mozzarella, czosnek, zioła"
         },
         {
           "number": 35,
-          "price": 35,
+          "price": 37,
           "name": "Spaghetti Matriciana",
           "description": "pieczarki, szynka, sos biały, sos pomidorowy, czosnek, zioł"
         },
         {
           "number": 61,
-          "price": 39,
+          "price": 41,
           "name": "Spaghetti Pride",
           "description": "polędwica (mięso krojone w paski) cebula, fasola czerwona, sos pomidorowy, śmietana, sos ostry, zioła"
         }
@@ -154,169 +154,169 @@
       "items": [
         {
           "number": 1,
-          "price": 24,
+          "price": 26,
           "name": "Margharita",
           "description": "sos pomidorowy, ser, pomidor, czosnek"
         },
         {
           "number": 2,
-          "price": 24,
+          "price": 26,
           "name": "Funghi",
           "description": "sos pomidorowy, ser, pieczarki, czosnek"
         },
         {
           "number": 3,
-          "price": 26,
+          "price": 28,
           "name": "Salami",
           "description": "sos pomidorowy, ser, salami, czosnek"
         },
         {
           "number": 4,
-          "price": 26,
+          "price": 28,
           "name": "Prosciutto",
           "description": "sos pomidorowy, ser, szynka, czosnek"
         },
         {
           "number": 5,
-          "price": 27,
+          "price": 29,
           "name": "Vegetariana",
           "description": "sos pomidorowy, ser, pieczarki, cebula, papryka"
         },
         {
           "number": 6,
-          "price": 27,
+          "price": 29,
           "name": "Hawaii",
           "description": "sos pomidorowy, ser, szynka, pieczarki, ananas, czosnek"
         },
         {
           "number": 7,
-          "price": 27,
+          "price": 29,
           "name": "Capriciosa",
           "description": "sos pomidorowy, ser, szynka, pieczarki, czosnek"
         },
         {
           "number": 8,
-          "price": 27,
+          "price": 29,
           "name": "Al Capone",
           "description": "sos pomidorowy, ser, szynka, pieczarki, cebula, czosnek"
         },
         {
           "number": 9,
-          "price": 27,
+          "price": 29,
           "name": "Bonano",
           "description": "sos pomidorowy, ser, pomidor, cebula, peperoni, czosnek"
         },
         {
           "number": 10,
-          "price": 28,
+          "price": 30,
           "name": "Pancetta",
           "description": "sos pomidorowy, ser, jajko, cebula, boczek, czosnek"
         },
         {
           "number": 11,
-          "price": 29,
+          "price": 31,
           "name": "Pescatore",
           "description": "sos pomidorowy, ser, cebula, tuńczyk, ananas, czosnek"
         },
         {
           "number": 12,
-          "price": 35,
+          "price": 37,
           "name": "Tomasso",
           "description": "sos pomidorowy, ser, czosnek, cebula, sos boloński, krewetki"
         },
         {
           "number": 13,
-          "price": 28,
+          "price": 30,
           "name": "Caramba",
           "description": "sos pomidorowy, ser, cebula, boczek, peperoni, czosnek"
         },
         {
           "number": 14,
-          "price": 29,
+          "price": 31,
           "name": "Mamma mia",
           "description": "sos pomidorowy, ser, szynka, pieczarki, cebula, papryka"
         },
         {
           "number": 15,
-          "price": 29,
+          "price": 31,
           "name": "Antonella",
           "description": "sos pomidorowy, ser, szynka, ananas, papryka, pieczarki"
         },
         {
           "number": 16,
-          "price": 31,
+          "price": 33,
           "name": "Marco Polo",
           "description": "sos pomidorowy, ser, jajko, pieczarki, szynka, peperoni"
         },
         {
           "number": 17,
-          "price": 31,
+          "price": 33,
           "name": "Ragazza",
           "description": "sos pomidorowy, ser, pieczarki, cebula, polędwica drobiowa, sos bianes, kapary, czosnek"
         },
         {
           "number": 18,
-          "price": 31,
+          "price": 33,
           "name": "Contadina",
           "description": "sos pomidorowy, ser, cebula, pieczarki, jajko, boczek, peperoni, czosnek"
         },
         {
           "number": 19,
-          "price": 32,
+          "price": 34,
           "name": "EXpansja",
           "description": "sos pomidorowy, ser, cebula, czosnek, boczek, sos boloński"
         },
         {
           "number": 20,
-          "price": 32,
+          "price": 34,
           "name": "Carlos",
           "description": "sos pomidorowy, ser, pieczarki, szynka, salami, peperoni"
         },
         {
           "number": 21,
-          "price": 22,
+          "price": 24,
           "name": "Pieczywko",
           "description": "WYRÓB WŁASNY"
         },
         {
           "number": 22,
-          "price": 29,
+          "price": 31,
           "name": "Owocowa fantazja - szefa kuchni",
           "description": "owoce z polewą czekoladową"
         },
         {
           "number": 23,
-          "price": 30,
+          "price": 32,
           "name": "Neo",
           "description": "sos pomidorowy, ser, oliwki czarne, oliwki zielone, feta, brokuły"
         },
         {
           "number": 24,
-          "price": 32,
+          "price": 34,
           "name": "Salsiccia",
           "description": "sos pomidorowy, ser, pieczarki, cebula, kiełbasa, czosnek"
         },
         {
           "number": 70,
-          "price": 29,
+          "price": 31,
           "name": "Oro",
           "description": "sos pomidorowy, ser, kukurydza, ser feta, czosnek"
         },
         {
           "number": 71,
-          "price": 33,
+          "price": 35,
           "name": "Con fagioli",
           "description": "sos pomidorowy, ser, cebula, papryka peperoni, sos boloński, boczek, kukurydza, fasola, czosnek"
         },
         {
           "number": 80,
-          "price": "23 zł + 4/5 zł",
+          "price": "25 zł + 4/5 zł",
           "name": "Twoja pizza",
-          "description": "za ciasto z delikatnym sosem pomidorowym i serem mozzarellą płacisz 23zł, a za każdy dodatek 4/5zł. Zatem do dzieła! Komponuj pizzę jaką lubisz!"
+          "description": "za ciasto z delikatnym sosem pomidorowym i serem mozzarellą płacisz 25zł, a za każdy dodatek 4/5zł. Zatem do dzieła! Komponuj pizzę jaką lubisz!"
         },
         {
           "number": null,
-          "price": "3/4/9 zł",
+          "price": "4/5/9 zł",
           "name": "Dodatki",
           "description": "salami, szynka, boczek, polędwica, tuńczyk, sos boloński, kiełbasa, - 5zł, ser, pomidor, cebula, kukurydza, pieczarki, ananas, jajko, kapary, oliwki czarne/ zielone, feta, brokuły, papryka łagodna/ostra, fasola - 4zł, kurczak, krewetki - 9zł"
         },
@@ -333,19 +333,19 @@
       "items": [
         {
           "number": 36,
-          "price": 36,
+          "price": 38,
           "name": "Rigatoni al forno (z pieca)",
           "description": "pieczarki, szynka, sos pomidorowy, sos biały, czosnek, ser mozzarella, zioła"
         },
         {
           "number": 37,
-          "price": 30,
+          "price": 32,
           "name": "Rigatoni broccoli al forno (z pieca)",
           "description": "pomidor, brokuły, sos pomidorowy, czosnek, ser mozzarella, zioła"
         },
         {
           "number": 38,
-          "price": 38,
+          "price": 40,
           "name": "Rigatoni pollo al forno (z pieca)",
           "description": "kawałki piersi z kurczaka, pieczarki, sos biały, czosnek, ser mozzarella, zioła"
         }
@@ -356,31 +356,31 @@
       "items": [
         {
           "number": 40,
-          "price": 31,
+          "price": 33,
           "name": "Risotto Vegetariana",
           "description": "pieczarki, cebula, papryka, brokuły, czosnek, sos pomidorowy, sałata lodowa, zioła"
         },
         {
           "number": 41,
-          "price": 34,
+          "price": 36,
           "name": "Risotto Expansja",
           "description": "sos boloński (pomidorowo-mięsny), polędwica drobiowa, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 42,
-          "price": 39,
+          "price": 41,
           "name": "Risotto Marinara",
           "description": "krewetki, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 43,
-          "price": 38,
+          "price": 40,
           "name": "Risotto Pollo",
           "description": "kawałki piersi z kurczaka, cebula, pieczarki, papryka, sałata lodowa, czosnek, zioła"
         },
         {
           "number": 49,
-          "price": 36,
+          "price": 38,
           "name": "Matassa",
           "description": "(Z RYŻEM LUB ZIEMNIAKAMI ZAPIEKANYMI) smażona świeża kapusta, kiełbaska, boczek, cebula, przyprawy"
         }
@@ -391,61 +391,61 @@
       "items": [
         {
           "number": 25,
-          "price": 23,
+          "price": 25,
           "name": "Picola mista",
           "description": "sałatka mała <br>sałata lodowa, ogórek, pomidor, cebula, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 26,
-          "price": 30,
+          "price": 32,
           "name": "Grecka",
           "description": "sałatka duża <br>sałata lodowa, ogórek, pomidor, cebula, feta, czosnek, sos winegret, oliwki zielone"
         },
         {
           "number": 27,
-          "price": "24 / 29 zł",
+          "price": "26 / 31 zł",
           "name": "Roma",
           "description": "sałatka mała / duża<br>sałata lodowa, cebula, ser mozzarella, ogórek, pomidor, jajko, oliwki zielone, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 28,
-          "price": "24 / 29 zł",
+          "price": "26 / 31 zł",
           "name": "Tonno",
           "description": "sałatka mała / duża <br>sałata lodowa, cebula, ogórek, pomidor, tuńczyk, oliwki zielone, sos winegret, czosnek, sos bianes"
         },
         {
           "number": 29,
-          "price": "24 / 29 zł",
+          "price": "26 / 31 zł",
           "name": "Venezia",
           "description": "sałatka mała / duża<br>sałata lodowa, cebula, ogórek, pomidor, ser mozzarella, szynka, jajko, oliwki zielone, czosnek, sos winegret, sos bianes"
         },
         {
           "number": 30,
-          "price": 30,
+          "price": 32,
           "name": "Expansja",
           "description": "sałatka duża<br>sałata lodowa, ogórek, pomidor, cebula, ser mozzarella, kukurydza, brokuły, czosnek, sos winegret, sos bianes"
         },
         {
           "number": 85,
-          "price": 33,
+          "price": 35,
           "name": "Favolla",
           "description": "sałatka duża<br>kawałki piersi z kurczaka, sałata lodowa, pomidor, cebula, ser mozzarella, czosnek, sos winegret, zioła"
         },
         {
           "number": 86,
-          "price": 23,
+          "price": 25,
           "name": "Cetriolo",
           "description": "sałatka duża<br>krojony ogórek kiszony, cebula, czosnek, oliwa, przyprawy"
         },
         {
           "number": 87,
-          "price": "24 / 29 zł",
+          "price": "26 / 31 zł",
           "name": "Presto",
           "description": "sałatka mała / duża<br>kukurydza, szynka, ser mozzarella, ananas, bianes"
         },
         {
           "number": 88,
-          "price": 35,
+          "price": 37,
           "name": "Di Mare",
           "description": "sałatka duża<br>sałata lodowa, ogórek, jajko, ser mozzarella, smażone krewetki"
         }
