@@ -154,127 +154,127 @@
       "items": [
         {
           "number": 1,
-          "price": 26,
+          "price": 27,
           "name": "Margharita",
           "description": "sos pomidorowy, ser, pomidor, czosnek"
         },
         {
           "number": 2,
-          "price": 26,
+          "price": 27,
           "name": "Funghi",
           "description": "sos pomidorowy, ser, pieczarki, czosnek"
         },
         {
           "number": 3,
-          "price": 28,
+          "price": 29,
           "name": "Salami",
           "description": "sos pomidorowy, ser, salami, czosnek"
         },
         {
           "number": 4,
-          "price": 28,
+          "price": 29,
           "name": "Prosciutto",
           "description": "sos pomidorowy, ser, szynka, czosnek"
         },
         {
           "number": 5,
-          "price": 29,
+          "price": 30,
           "name": "Vegetariana",
           "description": "sos pomidorowy, ser, pieczarki, cebula, papryka"
         },
         {
           "number": 6,
-          "price": 29,
+          "price": 30,
           "name": "Hawaii",
           "description": "sos pomidorowy, ser, szynka, pieczarki, ananas, czosnek"
         },
         {
           "number": 7,
-          "price": 29,
+          "price": 30,
           "name": "Capriciosa",
           "description": "sos pomidorowy, ser, szynka, pieczarki, czosnek"
         },
         {
           "number": 8,
-          "price": 29,
+          "price": 30,
           "name": "Al Capone",
           "description": "sos pomidorowy, ser, szynka, pieczarki, cebula, czosnek"
         },
         {
           "number": 9,
-          "price": 29,
+          "price": 30,
           "name": "Bonano",
           "description": "sos pomidorowy, ser, pomidor, cebula, peperoni, czosnek"
         },
         {
           "number": 10,
-          "price": 30,
+          "price": 31,
           "name": "Pancetta",
           "description": "sos pomidorowy, ser, jajko, cebula, boczek, czosnek"
         },
         {
           "number": 11,
-          "price": 31,
+          "price": 32,
           "name": "Pescatore",
           "description": "sos pomidorowy, ser, cebula, tuńczyk, ananas, czosnek"
         },
         {
           "number": 12,
-          "price": 37,
+          "price": 38,
           "name": "Tomasso",
           "description": "sos pomidorowy, ser, czosnek, cebula, sos boloński, krewetki"
         },
         {
           "number": 13,
-          "price": 30,
+          "price": 31,
           "name": "Caramba",
           "description": "sos pomidorowy, ser, cebula, boczek, peperoni, czosnek"
         },
         {
           "number": 14,
-          "price": 31,
+          "price": 32,
           "name": "Mamma mia",
           "description": "sos pomidorowy, ser, szynka, pieczarki, cebula, papryka"
         },
         {
           "number": 15,
-          "price": 31,
+          "price": 32,
           "name": "Antonella",
           "description": "sos pomidorowy, ser, szynka, ananas, papryka, pieczarki"
         },
         {
           "number": 16,
-          "price": 33,
+          "price": 34,
           "name": "Marco Polo",
           "description": "sos pomidorowy, ser, jajko, pieczarki, szynka, peperoni"
         },
         {
           "number": 17,
-          "price": 33,
+          "price": 34,
           "name": "Ragazza",
           "description": "sos pomidorowy, ser, pieczarki, cebula, polędwica drobiowa, sos bianes, kapary, czosnek"
         },
         {
           "number": 18,
-          "price": 33,
+          "price": 34,
           "name": "Contadina",
           "description": "sos pomidorowy, ser, cebula, pieczarki, jajko, boczek, peperoni, czosnek"
         },
         {
           "number": 19,
-          "price": 34,
+          "price": 35,
           "name": "EXpansja",
           "description": "sos pomidorowy, ser, cebula, czosnek, boczek, sos boloński"
         },
         {
           "number": 20,
-          "price": 34,
+          "price": 35,
           "name": "Carlos",
           "description": "sos pomidorowy, ser, pieczarki, szynka, salami, peperoni"
         },
         {
           "number": 21,
-          "price": 24,
+          "price": 25,
           "name": "Pieczywko",
           "description": "WYRÓB WŁASNY"
         },
@@ -286,31 +286,31 @@
         },
         {
           "number": 23,
-          "price": 32,
+          "price": 33,
           "name": "Neo",
           "description": "sos pomidorowy, ser, oliwki czarne, oliwki zielone, feta, brokuły"
         },
         {
           "number": 24,
-          "price": 34,
+          "price": 35,
           "name": "Salsiccia",
           "description": "sos pomidorowy, ser, pieczarki, cebula, kiełbasa, czosnek"
         },
         {
           "number": 70,
-          "price": 31,
+          "price": 32,
           "name": "Oro",
           "description": "sos pomidorowy, ser, kukurydza, ser feta, czosnek"
         },
         {
           "number": 71,
-          "price": 35,
+          "price": 36,
           "name": "Con fagioli",
           "description": "sos pomidorowy, ser, cebula, papryka peperoni, sos boloński, boczek, kukurydza, fasola, czosnek"
         },
         {
           "number": 80,
-          "price": "25 zł + 4/5 zł",
+          "price": "26 zł + 4/5 zł",
           "name": "Twoja pizza",
           "description": "za ciasto z delikatnym sosem pomidorowym i serem mozzarellą płacisz 25zł, a za każdy dodatek 4/5zł. Zatem do dzieła! Komponuj pizzę jaką lubisz!"
         },
