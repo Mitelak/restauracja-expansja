@@ -7,25 +7,21 @@
   "author": "mitelak <mitelak@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm-run-all clean --parallel start:gulp start:eleventy",
+    "start": "npm run clean && npm run start:gulp | npm run start:eleventy",
     "start:gulp": "gulp watch",
     "start:eleventy": "eleventy --serve --watch",
-    "build": "npm-run-all clean build:gulp build:eleventy",
+    "build": "npm run clean && npm run build:gulp && npm run build:eleventy",
     "build:eleventy": "eleventy",
     "build:gulp": "gulp",
     "clean": "del _site"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "clean-css": "^4.2.1",
-    "del-cli": "^3.0.0",
+    "@11ty/eleventy": "^2.0.1",
+    "clean-css": "^5.3.2",
+    "del-cli": "^5.0.0",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.24.0",
-    "terser": "^4.4.3"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.64.1",
+    "terser": "^5.19.2"
   }
 }

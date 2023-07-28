@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-@import 'variables';
-@import 'legacy';
-@import 'info';
-@import 'navigation';
-@import 'pages';
-@import 'footer';
+@import "variables";
+@import "legacy";
+@import "info";
+@import "navigation";
+@import "pages";
+@import "footer";
 
 body {
   background: $BG_COLOR;
@@ -225,7 +225,7 @@ a.tel {
   line-height: 24px;
 }
 #tel {
-  background: url('../images/phone322.png');
+  background: url("../images/phone322.png");
   height: 24px;
   width: 24px;
   background-size: cover;
