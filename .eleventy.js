@@ -1,6 +1,6 @@
-const CleanCSS = require("clean-css");
+import CleanCSS from "clean-css";
 
-module.exports = (eleventyConfig) => {
+export default function(eleventyConfig) {
   eleventyConfig.addFilter("cssmin", (code) => {
     return new CleanCSS({}).minify(code).styles;
   });

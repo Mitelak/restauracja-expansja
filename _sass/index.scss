@@ -1,19 +1,21 @@
+@use "sass:meta";
+@use "variables";
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-@import "variables";
-@import "legacy";
-@import "info";
-@import "navigation";
-@import "pages";
-@import "footer";
+@include meta.load-css("legacy");
+@include meta.load-css("info");
+@include meta.load-css("navigation");
+@include meta.load-css("pages");
+@include meta.load-css("footer");
 
 body {
-  background: $BG_COLOR;
-  font-family: $FONT_FAMILY;
+  background: variables.$BG_COLOR;
+  font-family: variables.$FONT_FAMILY;
 }
 
 .container {

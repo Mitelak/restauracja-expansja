@@ -1,5 +1,8 @@
-const { src, dest, watch } = require("gulp");
-const sass = require("gulp-sass")(require("sass"));
+import { src, dest, watch as gulpWatch } from "gulp";
+import gulpSass from "gulp-sass";
+import sass from "sass";
+
+const sassCompiler = gulpSass(sass);
 
 const SOURCE = {
   SCSS: "_sass/*.scss",
@@ -11,12 +14,12 @@ const OUTPUT = {
 
 const compileSass = () => {
   return src(SOURCE.SCSS)
-    .pipe(sass.sync({ outputStyle: "compressed" }).on("error", sass.logError))
+    .pipe(sassCompiler.sync({ outputStyle: "compressed" }).on("error", sassCompiler.logError))
     .pipe(dest(OUTPUT.SCSS));
 };
 
-exports.watch = () => {
-  watch(SOURCE.SCSS, { ignoreInitial: false }, compileSass);
+export const watch = () => {
+  gulpWatch(SOURCE.SCSS, { ignoreInitial: false }, compileSass);
 };
 
-exports.default = compileSass;
+export default compileSass;

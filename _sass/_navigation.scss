@@ -1,5 +1,7 @@
+@use "variables";
+
 .logo {
-  color: $WHITE;
+  color: variables.$WHITE;
   text-align: center;
 
   &__title {
@@ -8,7 +10,7 @@
     margin-bottom: 12px;
 
     span {
-      color: $RED;
+      color: variables.$RED;
     }
   }
 
@@ -22,8 +24,8 @@
 .navigation {
   $DESKTOP_NAV_HEIGHT: 32px;
 
-  border-top: 1px solid $RED;
-  border-bottom: 1px solid $RED;
+  border-top: 1px solid variables.$RED;
+  border-bottom: 1px solid variables.$RED;
 
   &__list {
     margin: 0 auto;
@@ -34,7 +36,7 @@
 
   &__item {
     width: 100%;
-    color: $WHITE;
+    color: variables.$WHITE;
     text-align: center;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -49,10 +51,10 @@
   }
 
   &__item--active {
-    color: $RED;
+    color: variables.$RED;
   }
 
-  @media (min-width: $DESKTOP) {
+  @media (min-width: variables.$DESKTOP) {
     height: calc($DESKTOP_NAV_HEIGHT / 2);
     border-top: none;
     position: relative;
@@ -66,8 +68,8 @@
 
     &__item {
       border-radius: 1px;
-      background: $BG_COLOR;
-      border: 1px solid $RED;
+      background: variables.$BG_COLOR;
+      border: 1px solid variables.$RED;
       margin: 0 8px;
       transition: background 0.2s;
       height: $DESKTOP_NAV_HEIGHT;
@@ -82,13 +84,13 @@
       }
 
       &:hover {
-        background: $RED;
+        background: variables.$RED;
       }
     }
 
     &__item--active {
-      background: $RED;
-      color: $WHITE;
+      background: variables.$RED;
+      color: variables.$WHITE;
     }
   }
 }
@@ -98,7 +100,7 @@
   height: 200px;
   background-size: cover;
   background-position: center;
-  border-bottom: 1px solid $RED;
+  border-bottom: 1px solid variables.$RED;
 
   display: flex;
   align-items: center;
@@ -106,13 +108,13 @@
 
   &__text {
     font-size: 3.6rem;
-    color: $WHITE;
+    color: variables.$WHITE;
     text-align: center;
     margin: 0;
     text-shadow: 0.5px 1.5px 1px rgba(0, 0, 0, 0.7);
 
     span {
-      color: $RED;
+      color: variables.$RED;
     }
   }
 }
