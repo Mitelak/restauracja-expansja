@@ -1,6 +1,6 @@
 import { src, dest, watch as gulpWatch } from "gulp";
 import gulpSass from "gulp-sass";
-import sass from "sass";
+import * as sass from "sass";
 
 const sassCompiler = gulpSass(sass);
 
